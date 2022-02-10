@@ -1,5 +1,5 @@
 class Artists:
-    def __init__(self, artist_id, artist_name, genre):
+    def __init__(self, artist_id, artist_name, genre='general'):
         self.__artist_id = artist_id
         self.__artist_Name = artist_name
         self.__genre = genre
